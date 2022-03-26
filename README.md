@@ -257,11 +257,11 @@ cron 一天一次
 
 https://mp.weixin.qq.com/s/Ar5oqSOq1STvABR2AlWxLw
 
-需要请求头里的xcx_openid，参考链接
+需要请求头里的xcx_openid和activeId，参考链接
 
 https://kohler-mini.brandsh.cn/mini.php/fissionCustom/getTaskList
 
-    export klyxtk='***'
+    export klyxtk='xcx_openid=***&activeId=***'
 
 </details>
 
