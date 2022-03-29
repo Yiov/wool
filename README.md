@@ -27,16 +27,34 @@
 
 
 
-## :fire: 2022-3-27更新
+## :fire: 2022-3-29更新
 
 
-我真是闲的蛋疼，重新拉了最新版镜像，面板任务都没了，好在环境变量都在，又要重新来。
+### 酷狗大字版 (安卓)
 
-真的没事别瞎更新，同时也发现很多脚本直接复制作者的过来了，定时都没有弄好，顺带一起弄掉吧
+cron 0 9 * * * kgdzb.js 看任务一天一次就可
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+
+* [x] 收益：一天0.6
+
+* [x] 多账户：未知
+
+进APP-福利，抓get包，有token、userid词即可，把整段url填入变量
+
+    export kugouurl='https://gateway.kugou.com/v1/incentive/tasks_state_list?signature=***&userid=***&clienttime=***&mid=***&token=***&uuid=***&channel=***&dfid=***&appid=***&from=client'
+
+
+</details>
+
+    // 2022-3-29
 
 
 
-脚本一会弄，耽误一天时间了
+
+## 2022-3-27更新
 
 
 
