@@ -48,9 +48,13 @@
 
 cron 0 9 * * * fyw.js 一天一次
 
+<details>
+<summary>食用步骤：</summary>
+<br />
+
 下载：http://www.fywa.com.cn/app/index.html
 
-* [x] 收益：一天0.1，挺少的
+* [x] 收益：一天0.1(挺少的，我都不想放)
 
 * [x] 多账户：未知
 
@@ -61,6 +65,11 @@ cron 0 9 * * * fyw.js 一天一次
 https://api.fywa.com.cn/api/user/coin/total
 
     export fywtoken='Authorization的值'
+
+</details>
+
+    // 2022-3-30不限少的玩
+
 
 
 
