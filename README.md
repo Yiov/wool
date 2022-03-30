@@ -4,6 +4,7 @@
 
     ql repo https://github.com/Yiov/wool.git "" "COOKIE"
 
+
 ## :loudspeaker: 关于小号
 
 建议：玩毛不要用自己常用手机，不然垃圾短信一堆
@@ -19,15 +20,49 @@
 
 我把我已知的都列举出来了，也欢迎投更好用的
 
-* [ToolTT](https://tooltt.com/header2json/)「好像不好用了」
+* ~[ToolTT](https://tooltt.com/header2json/)「好像不好用了」~
 
 * [uutool](https://uutool.cn/header2json/)
 
 * [wejson](https://wejson.cn/header2json/)
 
 
+## :octocat: 疑问及交流
 
-## :fire: 2022-3-29更新
+使用中仍会遇到些小的问题，请有疑问的同学在电报上问我吧，尽力帮你们答疑
+
+个人TG账号：[@yiovl](https://t.me/yiovl)
+
+
+工作原因回复不及时，见谅，也欢迎交流学习，反正我还是菜鸡
+
+
+
+
+
+
+## :fire: 2022-3-30更新
+
+
+### 放羊娃 (安卓)
+
+cron 0 9 * * * fyw.js 一天一次
+
+下载：http://www.fywa.com.cn/app/index.html
+
+* [x] 收益：一天0.1，挺少的
+
+* [x] 多账户：未知
+
+抓GET包，只要有Authorization的值就可以了
+
+> 注：先去提现绑定支付宝(手机)再跑，否则跑不了！
+
+https://api.fywa.com.cn/api/user/coin/total
+
+    export fywtoken='Authorization的值'
+
+
 
 
 ### 酷狗大字版 (安卓)
@@ -40,16 +75,16 @@ cron 0 9 * * * kgdzb.js 看任务一天一次就可
 
 * [x] 收益：一天0.6
 
-* [x] 多账户：未知
+* [x] 多账户：用@隔开
 
-进APP-福利，抓get包，有token、userid词即可，把整段url填入变量
+进APP-福利，抓get包，每个人抓的host可能不一致，找*.kugou.com，只要有token、userid等关键数据即可，把整段url，填入变量，参考 `https://gateway.kugou.com/v1/***`
 
-    export kugouurl='https://gateway.kugou.com/v1/incentive/tasks_state_list?signature=***&userid=***&clienttime=***&mid=***&token=***&uuid=***&channel=***&dfid=***&appid=***&from=client'
+    export kugouurl='这里填入url链接！链接！'
 
 
 </details>
 
-    // 2022-3-29
+    // 2022-3-30更正描述，脚本未更新
 
 
 
