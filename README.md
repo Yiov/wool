@@ -38,6 +38,61 @@
 
 
 
+## :fire: 2022-3-31更新
+
+
+### 省钱钱 (安卓/IOS)
+
+cron 0 9 * * * sqq.js 一天一次
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+
+* [x] 收益：一天0.2-0.3
+
+* [x] 多账户：用@隔开
+
+抓POST包，进APP-点赚钱-广告赚钱，获取数据
+
+https://api.youlaizhuan.com/VideoApi
+
+    export sqqbody='c=GetUniadVideoList&d={}&s=***&ts=***&a=***&t=***&v=1.8.16&deviceid=***'
+
+> 注：如果这里的`id=%7B%7D`，请替换成`d={}`
+
+</details>
+
+    // 2022-3-31特别说明：需要实名，且和手机一致才可提现，介意不玩
+
+
+
+
+### 花赚福利社 (小程序)
+
+cron 0 9 * * * hzfls.js 一天一次
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+
+* [x] 收益：一天0.2-0.3，跑完到账0.3
+
+* [x] 多账户：用@隔开
+
+抓GET包，进小程序获取数据，邀请码请填作者肥皂的`MM8Q6K`
+
+https://apiv2.huazhuanapp.com/api/v1/coin/task/list?
+
+把整条url链接放入变量
+
+    export hzflsurl='https://apiv2.huazhuanapp.com/api/v1/coin/task/list?***'
+
+</details>
+
+    // 2022-3-31添加
+
+
 
 
 
