@@ -9,6 +9,7 @@ https://api.fywa.com.cn/ 接口链接。
 一天运行一次就行了。。。。。。。不用一天十次
 提现金额自己更改脚本19行  
 
+cron 0 9 * * * fyw.js 一天一次
 */
 const $ = new Env('放羊娃');
 let status;
