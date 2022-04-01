@@ -33,6 +33,7 @@
 
 个人TG账号：[@yiovl](https://t.me/yiovl)
 
+TG不能私聊的，善用百度[电报+86不能私聊](https://www.jianshu.com/p/db274b58967f)
 
 工作原因回复不及时，见谅，也欢迎交流学习，反正我还是菜鸡
 
@@ -41,9 +42,9 @@
 ## :fire: 2022-3-31更新
 
 
-### 省钱钱 (安卓/IOS)
+### 省钱钱 sqq.js(安卓/IOS)
 
-cron 0 9 * * * sqq.js 一天一次
+cron 0 9 * * * 一天一次
 
 <details>
 <summary>食用步骤：</summary>
@@ -68,9 +69,9 @@ https://api.youlaizhuan.com/VideoApi
 
 
 
-### 花赚福利社 (小程序)
+### 花赚福利社 hzfls.js(小程序)
 
-cron 0 9 * * * hzfls.js 一天一次
+cron 0 9 * * * 一天一次
 
 <details>
 <summary>食用步骤：</summary>
@@ -99,9 +100,9 @@ https://apiv2.huazhuanapp.com/api/v1/coin/task/list?
 ## :fire: 2022-3-30更新
 
 
-### 放羊娃 (安卓)
+### 放羊娃 fyw.js(安卓)
 
-cron 0 9 * * * fyw.js 一天一次
+cron 0 9 * * * 一天一次
 
 <details>
 <summary>食用步骤：</summary>
@@ -129,9 +130,9 @@ https://api.fywa.com.cn/api/user/coin/total
 
 
 
-### 酷狗大字版 (安卓)
+### 酷狗大字版 kgdzb.js(安卓)
 
-cron 0 9 * * * kgdzb.js 看任务一天一次就可
+cron 0 9 * * * 看任务一天一次就可
 
 <details>
 <summary>食用步骤：</summary>
@@ -944,6 +945,10 @@ cron 10 0,8,12,18 * * *
 <summary>食用步骤：</summary>
 <br />
 抓get包，进app-5天种水果，浇一次水，搜water
+
+> 找不到的搜`game.xiaojukeji.com`，里面找带有`wsgsig`的链接
+
+请求里找到token的值就可以了
 
 把请求主题中的 token 值复制出来，多账户用,号(英文)隔开
 
