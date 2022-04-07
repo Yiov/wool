@@ -41,6 +41,8 @@ TG不能私聊的，善用百度[电报+86不能私聊](https://www.jianshu.com/
 
 ## :fire: 2022-4-7更新
 
+快手以及酷狗由于代挂太多，脚本作者准备停用了
+
 
 ### 宝石星球 bsxq.js（安卓）
 
@@ -56,14 +58,14 @@ cron 0 */1 * * *
 
 下载链接 ：http://www.baoshixingqiu.com/
 
-抓get包，打开APP即可获取数据，找到带有resource_id、token、android_id、oaid关键词的整条url，例如：
+抓get包，打开APP即可获取数据，找到token关键词的整条url，例如：
 
     export bsxq='http://interface.baoshixingqiu.com/user/info?*****'
 
 
 </details>
 
-    // 2022-4-7 IOS好像国区下不了
+    // 2022-4-7已经抓取过的，不用改变量
 
 
 
