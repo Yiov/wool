@@ -77,7 +77,7 @@ cron 40 6-13 * * * 一天7-8次
 
 * [x] 收益：每天0.2-0.3
 
-* [x] 多账户：未知
+* [x] 多账户：用@分隔
 
 下载地址：http://woaizhuanqian3.cn/lovemoney.html
 
