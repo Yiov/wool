@@ -67,6 +67,35 @@ cron 0 */1 * * *
 
 
 
+### 帮多多 bdd.js
+
+cron 40 6-13 * * * 一天7-8次
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+
+* [x] 收益：每天0.2-0.3
+
+* [x] 多账户：未知
+
+下载地址：http://woaizhuanqian3.cn/lovemoney.html
+
+抓域名`www.cqsslhj.com`的Authorization的值，例如：
+
+https://www.cqsslhj.com/SysBase/User/GetUserCaptital?
+
+    export bddtoken='Authorization的值'
+
+
+
+</details>
+
+    // 2022-4-7安装好记得注册账号了，再抓了跑
+
+
+
+
 
 ## :apple: 2022-4-2不更新说明
 
