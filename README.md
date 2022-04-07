@@ -41,7 +41,10 @@ TG不能私聊的，善用百度[电报+86不能私聊](https://www.jianshu.com/
 
 ## :fire: 2022-4-7更新
 
-快手以及酷狗由于代挂太多，脚本作者准备停用了
+
+:exclamation: `快手`以及`酷狗`由于代挂太多，脚本作者已经停用了，这一波闲鱼代挂狗赢了
+
+
 
 
 ### 宝石星球 bsxq.js（安卓）
@@ -79,7 +82,7 @@ cron 40 6-13 * * * 一天7-8次
 
 * [x] 收益：每天0.2-0.3
 
-* [x] 多账户：用@分隔
+* [x] 多账户：用@分隔，但是1个IP限制1个号...
 
 下载地址：http://woaizhuanqian3.cn/lovemoney.html
 
@@ -911,7 +914,8 @@ module.exports = {"code":200,
 "kyin":[//快音
 "device-id值&access-token值&refresh_token值",//这是第1个账号
 "",//多账号逗号换行
-] 
+]
+}}
 ```
 </details>
 
