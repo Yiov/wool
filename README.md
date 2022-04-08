@@ -1,4 +1,4 @@
-## :world_map: 使用教程
+﻿## :world_map: 使用教程
 
 【拉库】
 
@@ -42,6 +42,114 @@ TG不能私聊的，善用百度[电报+86不能私聊](https://www.jianshu.com/
 ## :fire: 2022-4-7更新
 
 
+昨晚开始传了几个版本的所谓破解版快手，有的甚至说会偷京东CK，今天我把我拿到的版本导入vscode对比了一下，恍然大悟
+
+出于对原作者尊重，不能再进行更新，会改的自己改吧，或者用别人破解版
+
+目前作者 @leafxcy 已关库并注销
+
+
+
+### 快手果园 ks_fruit.js
+
+Cron 随意，一天一次
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+抓get包，进app-左上角三横-快手果园，获取Cookie
+
+https://ug-fission.kuaishou.com/rest/n/darwin/orchard/water/watering
+
+    export KS_COOKIE='client_key=***;did=***;kuaishou.api_st=***;ud=***;ver=***;'
+
+</details>
+
+    // 2022-4-8新增一次性收完所有浇水红包
+
+
+
+### 闲趣赚 xqz.js
+
+cron 10 12 * * *
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+
+下载链接：http://i.hbymcm.cn/down
+
+新人可直接领2个0.3，大佬建议做了新人再跑，收益多点，我懒！
+
+抓get包，找到cookie数据即可，就是做的分红的浏览任务
+
+https://wap.huayingrc.com/user
+
+    export xqzck='Cookie'
+
+</details>
+
+    // 2022-4-8 脚本没失效，才发现抓包host变了，自己重新抓
+
+
+
+
+### 帮多多 bdd.js
+
+cron 40 6-13 * * * 一天7-8次
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+
+* [x] 收益：每天0.2-0.3
+
+* [x] 多账户：用@分隔，但是1个IP限制1个号...
+
+下载地址：http://woaizhuanqian3.cn/lovemoney.html
+
+抓域名`www.cqsslhj.com`的Authorization的值，例如：
+
+https://www.cqsslhj.com/SysBase/User/GetUserCaptital?
+
+    export bddtoken='Authorization的值'
+
+
+
+</details>
+
+    // 2022-4-8提示授权码过期的重新抓包就行，自己试下了再反馈
+
+
+
+
+### ~顺丰·乘丰寻宝记 cfxbj.js~
+
+cron 一天一次
+
+<details>
+<summary>食用步骤：</summary>
+<br />
+抓POST包，打开顺丰速运+（小程序）-乘风寻宝记即可获取数据
+
+https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/buildP3
+
+只要有cookie就行的任意链接
+
+    export cfxbjck='JSESSIONID=***'
+
+</details>
+
+    // 2022-3-23活动截止4月3号
+
+
+
+
+
+
+## :lemon: 2022-4-7更新
+
+
 :exclamation: `快手`以及`酷狗`由于代挂太多，脚本作者已经停用了，这一波闲鱼代挂狗赢了
 
 
@@ -70,33 +178,6 @@ cron 0 */1 * * *
 
     // 2022-4-7已经抓取过的，不用改变量
 
-
-
-### 帮多多 bdd.js
-
-cron 40 6-13 * * * 一天7-8次
-
-<details>
-<summary>食用步骤：</summary>
-<br />
-
-* [x] 收益：每天0.2-0.3
-
-* [x] 多账户：用@分隔，但是1个IP限制1个号...
-
-下载地址：http://woaizhuanqian3.cn/lovemoney.html
-
-抓域名`www.cqsslhj.com`的Authorization的值，例如：
-
-https://www.cqsslhj.com/SysBase/User/GetUserCaptital?
-
-    export bddtoken='Authorization的值'
-
-
-
-</details>
-
-    // 2022-4-7安装好记得注册账号了，再抓了跑
 
 
 
@@ -313,33 +394,15 @@ https://kohler-mini.brandsh.cn/mini.php/fissionCustom/lotteryPage
 
 
 
-### 快手果园 ks_fruit.js
 
-Cron 随意，一天一次
-
-<details>
-<summary>食用步骤：</summary>
-<br />
-抓get包，进app-左上角三横-快手果园，获取Cookie
-
-https://ug-fission.kuaishou.com/rest/n/darwin/orchard/water/watering
-
-    export KS_COOKIE='client_key=***;did=***;kuaishou.api_st=***;ud=***;ver=***;'
-
-</details>
-
-    // 2022-3-25新增连续7天签到
-
-
-
-### 百世乐元 bsly.js
+### 百事乐元 bsly.js
 
 cron 一天一次
 
 <details>
 <summary>食用步骤：</summary>
 <br />
-百世乐元微信小程序，积分换肥宅快乐水
+百事乐元微信小程序，积分换肥宅快乐水
 
 抓POST包，获取token值即可，作者说找doSignIn，我没找到用了下面链接的token
 
@@ -353,7 +416,7 @@ UA可选变量，填不填自己看
 
 </details>
 
-    // 2022-3-25只有签到
+    // 2022-3-25只有签到，失效了重抓
 
 
 
@@ -417,27 +480,6 @@ https://api.yd.ihaoqu.com/?r=api2&apiAction=SignIn
 
 
 
-### 闲趣赚 xqz.js
-
-cron 10 12 * * *
-
-<details>
-<summary>食用步骤：</summary>
-<br />
-
-下载链接：http://i.hbymcm.cn/down
-
-新人可直接领2个0.3，大佬建议做了新人再跑，收益多点，我懒！
-
-抓get包，找到cookie数据即可，就是做的分红的浏览任务
-
-https://wap.quxianzhuan.com/
-
-    export xqzck='***'
-
-</details>
-
-    // 2022-3-25更新加入用户余额和信息
 
 
 
@@ -508,30 +550,6 @@ module.exports = {"code":200,"yhxq_variable_data":{
 ## 2022-3-23更新
 
 
-### 顺丰·乘丰寻宝记 cfxbj.js
-
-cron 一天一次
-
-<details>
-<summary>食用步骤：</summary>
-<br />
-抓POST包，打开顺丰速运+（小程序）-乘风寻宝记即可获取数据
-
-https://mcs-mimp-web.sf-express.com/mcs-mimp/share/weChat/buildP3
-
-只要有cookie就行的任意链接
-
-    export cfxbjck='JSESSIONID=***'
-
-</details>
-
-    // 2022-3-23活动截止4月3号
-
-
-
-
-
-
 
 
 ### 腾讯自选股V2 txstockV2.js
@@ -593,13 +611,14 @@ cron 0 7 * * *
 
 </details>
 
-    // 2022-3-23更新评论不加积分
+    // 2022-3-23更新评论不加积分，失效了重新抓
+
+
 
 
 
 
 ## 2022-3-20更新
-
 
 
 
@@ -769,33 +788,6 @@ https://h5.ele.me/svip/task-list
 
 
 
-### 微娱推客 wytk.js
-
-cron 26/5 10,13 * * *(一天12-15次)
-
-<details>
-<summary>食用步骤：</summary>
-<br />
-微信打开注册，然后根据提示下载安装并登陆
-
-https://lm.wy.run/index/user/wechatLogin
-
-抓POST包，签到即可获取toekn值
-
-> 我的-设置-复制appkey-返回 活动-立即签到-保存图片-微信扫码 登陆-签到-输入appkey-再次点签到，等视频完结即可
-
-https://lm.wy.run/api/sign/index
-
-
-    export soy_wytk_data="token&UA"
-
-</details>
-
-    // 2022-3-6有可能活不久，不清楚，我放弃了
-
-    // 现在分红只有靠积分，添加客服wwy6762拉群卖积分，而积分交易需要2元实名认证，一不小心就反撸
-
-
 
 
 
@@ -811,7 +803,7 @@ cron 42 9,18 * * *
 <br />
 微信小程序，注册送200积分
 
-抓GET包，点我的即可获取数据，多账号@隔开
+抓GET包，点我的即可获取token数据，多账号@隔开
 
 https://club.biqr.cn/api/member/getMemberInfo
 
