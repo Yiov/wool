@@ -57,8 +57,8 @@
 | 机场签到<br>jcCheck.js | 网页 | QiFengg | 否 | 好家伙/ikuuu/几鸡 | ★★ |
 | 九章头条<br>jztt.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★★ |
 | K |
-| 快手<br>ks.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 实物 | ★★★ |
-| 快手果园<br>ks_fruit.js | 安卓/IOS | [@passerby-b](https://github.com/passerby-b/didi_fruit/) | 是 | 现金 | ★★★ |
+| 快手<br>ks.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★ |
+| 快手果园<br>ks_fruit.js | 安卓/IOS | [@passerby-b](https://github.com/passerby-b/didi_fruit/) | 是 | 实物 | ★★★ |
 | 快音<br>kyin.js | 安卓 | [@soy](https://github.com/soytool/script) | 是 | 现金 | ★★★ |
 | M |
 | 美团<br>meituan.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 外卖红包 | ★★ |
