@@ -54,8 +54,9 @@
 | 广汽三菱<br>gqsl.js | 安卓/IOS | [@Tom](https://github.com/xl2101200/-/) | 是 | 实物 | ★★ |
 | 高佣金更名：<br>佣金帝<br>gyj.js | 安卓/IOS | [@liuqi6968](https://github.com/liuqi6968/-) | 否 | 现金 | ★★ |
 | J |
-| 机场签到<br>jcCheck.js | 网页 | QiFengg | 否 | 好家伙/ikuuu/几鸡 | ★★ |
 | 九章头条<br>jztt.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★★ |
+| 机场签到<br>jcCheck.js | 网页 | QiFengg | 否 | 好家伙/ikuuu/几鸡 | ★★ |
+| 健走有礼<br>jzyl.js | 小程序 | [@leaf](https://github.com/leafTheFish/DeathNote) | 否 | 现金 | ★★ |
 | K |
 | 快手<br>ks.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★ |
 | 快手果园<br>ks_fruit.js | 安卓/IOS | [@passerby-b](https://github.com/passerby-b/didi_fruit/) | 是 | 实物 | ★★★ |
