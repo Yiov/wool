@@ -1,6 +1,6 @@
 /*健走有礼 @leaf
 
-cron 47 8,20 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js
+cron 59 10,20 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js
 
 脚本库：https://github.com/leafTheFish/DeathNote/
 
@@ -11,6 +11,7 @@ cron 47 8,20 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/
 
 一天一两次即可，理论上跑一次就能完成任务
 
+作者原本定时是 47 8,20 ；兑换的时候我发现是11点补货，那我们就10点59运行，正好可以卡11点
 
 
 [青龙变量]
@@ -28,7 +29,7 @@ export jzylCookie="token值"
 
 [task_local]
 #健走有礼
-47 8,20 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js, tag=健走有礼, enabled=true
+59 10,20 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js, tag=健走有礼, enabled=true
 
 [MITM]
 hostname = bwa.feierlaiedu.com
