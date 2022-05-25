@@ -62,7 +62,7 @@
 | 快手果园<br>ks_fruit.js | 安卓/IOS | [@passerby-b](https://github.com/passerby-b/didi_fruit/) | 是 | 实物 | ★★★ |
 | 快音<br>kyin.js | 安卓 | [@soy](https://github.com/soytool/script) | 是 | 现金 | ★★★ |
 | M |
-| 美团<br>meituan.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 外卖红包 | ★★ |
+| 美团<br>meituan.js | 安卓/IOS | [@萝卜](https://gitlab.luobook.fun/root/script/tree/master) | 是 | 外卖红包 | ★★ |
 | T |
 | 腾讯自选股<br>txstockV2.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★★ |
 | X |
