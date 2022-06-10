@@ -65,6 +65,7 @@
 | 美团<br>meituan.js | 安卓/IOS | [@萝卜](https://gitlab.luobook.fun/root/script/tree/master) | 是 | 外卖红包 | ★★ |
 | T |
 | 腾讯自选股<br>txstockV2.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★★ |
+| 腾讯视频福利<br>txspfl.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 会员 | ★★ |
 | X |
 | 小米刷步<br>xmsb.py | APP | @佚名 | 否 | 步数 | ★★ |
 | Y |
