@@ -59,6 +59,7 @@
 | 健走有礼<br>jzyl.js | 小程序 | [@leaf](https://github.com/leafTheFish/DeathNote) | 否 | 现金 | ★★ |
 | K |
 | 快手<br>ks.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★ |
+| 快手极速版<br>ksjsb.js | 安卓/IOS | [@leaf](https://github.com/leafTheFish/DeathNote) | 是 | 现金 | ★★★ |
 | 快手果园<br>ks_fruit.js | 安卓/IOS | [@passerby-b](https://github.com/passerby-b/didi_fruit/) | 是 | 实物 | ★★★ |
 | 快音<br>kyin.js | 安卓 | [@soy](https://github.com/soytool/script) | 是 | 现金 | ★★★ |
 | M |
