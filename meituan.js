@@ -1,13 +1,16 @@
 /*美团 @萝卜
 
-cron 0 0,9,18 * * * https://gitlab.luobook.fun/root/script/raw/master/ELM/lb_elm.js
+cron 0 0,9,18 * * * http://gitlab.radish.today/root/script/raw/master/MT/lb_meituan.js
 
-脚本库：https://gitlab.luobook.fun/root/script/tree/master
+脚本库：http://gitlab.radish.today/root/script/blob/master/
 
 [脚本说明]
 
-百度：美团登录自己抓Token ，美团小程序首页天天赚钱
+电脑美团登录自己抓Token ，或 美团小程序首页天天赚钱
 
+进美团官网：https://www.meituan.com
+
+F12审查元素-登录账号-工作台选 网络，登录账号后,找到*.meituan.com的封包，Cookie中找到token值，复制出来
 
 [青龙变量]
 
